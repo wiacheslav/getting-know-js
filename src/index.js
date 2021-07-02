@@ -12,6 +12,7 @@ array = new Proxy(array, {
 
 console.log(array[-1]);
 
+
 function foo() {
     setTimeout(() => console.log(typeof r), 0);
 
